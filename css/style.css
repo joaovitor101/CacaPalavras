@@ -1,29 +1,64 @@
-
+body{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px
+}
 td{
     text-align: center;
     width: 50px;
     font-size: 25px;
     height: 50px;
 }
-
-p{
-    font-size: 40px;
-    margin: auto;
-    text-align: center;
-    color: white
+p2{
+    position: absolute;
+    color: white;
+    font-size: 20px;
 }
 
+#cp1{
+    position: absolute;
+    margin-right: 770px;
+    margin-top: 100px;
+    
+}
+
+#cp2{
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 100px;
+    
+}
+
+p3, p4{
+    font-size: 18px;
+    color: #00ffcc;
+}
+p2{
+    color: #ffff00;
+}
+p{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+
+
 table,td{
-    border: 0.2px;
-    margin: auto;
+    border: 0.1px;
     margin-top: 26px;
     border-style: ridge;
-    border-color: #660066;
-    background-color: #660066;
+    border-color: #00334d;
+    background-color: #0077b3;
     color: white;
 }
 
+table{
+    margin-top: 10em;
+}
+#marcas{
+    background-color: #660066;
+}
 
-#comida{
-    background-color: #990a00;
+td.pintados{
+    background-color: #FF6961;
 }
